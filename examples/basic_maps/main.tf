@@ -5,7 +5,7 @@
 # Azure Region Lookup
 #----------------------------------------------------------
 module "mod_azure_region_lookup" {
-  source  = "azurenoops/overlays-azregions-lookup/azurerm"
+  source  = "github.com/POps-Rox/tf-az-overlays-azregionslookup"
   version = "~> 1.0.0"
 
   azure_region = "eastus"
@@ -13,7 +13,7 @@ module "mod_azure_region_lookup" {
 
 module "mod_az_maps" {
   source = "../.."
-  #source  = "azurenoops/azmaps/azurerm"
+  #source  = "github.com/POps-Rox/tf-az-overlays-azmaps"
   #version = "x.x.x"
 
   # By default, this module will create a resource group and 
