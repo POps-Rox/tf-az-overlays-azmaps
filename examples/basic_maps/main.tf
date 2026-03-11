@@ -28,7 +28,7 @@ module "mod_az_maps" {
   org_name                   = "anoa"
   workload_name              = "dev-maps"
 
-  sku = "S0"
+  sku           = "S0"
   storage_units = 1
 
   # Tags for Azure Resources
