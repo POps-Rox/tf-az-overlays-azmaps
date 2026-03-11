@@ -37,7 +37,7 @@ More details are available in the [CONTRIBUTING.md](./CONTRIBUTING.md#pull-reque
 
 ```hcl
 module "mod_azmaps" {
-  source  = "azurenoops/overlays-azmaps/azurerm"
+  source  = "POps-Rox/tf-az-overlays-azmaps/azurerm"
   version = "x.x.x"
 
   create_maps_resource_group = true
